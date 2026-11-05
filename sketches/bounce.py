@@ -11,7 +11,7 @@ def setup():
 def draw():
     global x, speed
 
-    f.background("white")
+    f.background("pink")
     f.circle(x, f.height / 2, 40)
 
     x += speed
