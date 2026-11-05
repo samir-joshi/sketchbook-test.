@@ -6,7 +6,7 @@ def setup():
 
 
 def draw():
-    f.background("white")
+    f.background("navy")
     f.fill("tomato")
     f.circle(320, 200, 80)
 
