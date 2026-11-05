@@ -5,13 +5,14 @@ speed = 3
 
 
 def setup():
-    f.size(640, 400)
+    f.size(800, 600)
 
 
 def draw():
     global x, speed
 
-    f.background("pink")
+    f.background("navy")
+    f.fill("tomato")
     f.circle(x, f.height / 2, 40)
 
     x += speed
